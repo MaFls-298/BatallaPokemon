@@ -16,10 +16,13 @@ public class Entrenador{
         return nombreEntrenador;
     }
 
-    public int rondasGanadas(){
+    public int getRondasGanadas() {
         return rondasGanadas;
     }
 
+    public void addRondaGanada() {
+        rondasGanadas++;
     
 }
 
+}
